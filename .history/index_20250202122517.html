@@ -1,0 +1,1828 @@
+<html
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:o="urn:schemas-microsoft-com:office:office"
+>
+<style type="text/css">
+    @media only screen and (max-width: 600px) {
+        .es-m-p20r { padding-right: 20px !important } 
+        .es-m-p20l { padding-left: 20px !important }
+        .es-m-p10t { padding-top: 10px !important }
+        .es-m-p20b { padding-bottom: 20px !important }
+        .es-m-txt-l { text-align: left !important }
+        .es-m-txt-c { text-align: center !important }
+        .es-m-txt-r { text-align: right !important }
+        
+        .es-m-hide { display: none !important }
+        .es-m-show { display: block !important }
+        
+        .es-left,
+        .es-right {
+            width: 100% !important;
+            float: none !important;
+        }
+        
+        .es-button {
+            font-size: 16px !important;
+            padding: 12px 25px !important;
+            display: block !important;
+            width: auto !important;
+        }
+        
+        .adapt-img {
+            width: 100% !important;
+            height: auto !important;
+        }
+        
+        .es-m-p0 { padding: 0px !important }
+        .es-m-p20 { padding: 20px !important }
+        
+        .es-header-body,
+        .es-content-body,
+        .es-footer-body {
+            width: 100% !important;
+            min-width: 100% !important;
+        }
+        
+        .es-menu td {
+            width: 1% !important;
+            padding: 5px !important;
+        }
+        
+        .es-menu.es-adapt-td td {
+            display: block !important;
+            width: 100% !important;
+        }
+        
+        .es-social td {
+            padding: 10px 10px 10px 0 !important;
+        }
+        
+        .es-social td:last-child {
+            padding-right: 0 !important;
+        }
+        
+        h1 { 
+            font-size: 36px !important;
+            line-height: 43px !important;
+        }
+        
+        h2 {
+            font-size: 26px !important;
+            line-height: 31px !important;  
+        }
+        
+        h3 {
+            font-size: 20px !important;
+            line-height: 24px !important;
+        }
+        
+        p,
+        .es-text {
+            font-size: 16px !important;
+            line-height: 24px !important;
+        }
+    }
+    
+    @media screen and (max-width: 384px) {
+        .es-m-p20r { padding-right: 15px !important }
+        .es-m-p20l { padding-left: 15px !important }
+        
+        .es-button {
+            font-size: 14px !important;
+            padding: 10px 20px !important;
+        }
+    }
+</style>
+<style>
+    @font-face {
+  font-family: "figtree-base-black";
+  src: url("./fonts/Figtree-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "figtree-base-black-italic";
+  src: url("./fonts/Figtree-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "figtree-base-bold";
+  src: url("./fonts/Figtree-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "figtree-base-bold-italic";
+  src: url("./fonts/Figtree-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "figtree-base-extra-bold";
+  src: url("./fonts/Figtree-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "figtree-base-extra-bold-italic";
+  src: url("./fonts/Figtree-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "figtree-base-italic";
+  src: url("./fonts/Figtree-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "figtree-base-light";
+  src: url("./fonts/Figtree-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "figtree-base-light-italic";
+  src: url("./fonts/Figtree-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "figtree-base-medium";
+  src: url("./fonts/Figtree-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "figtree-base-medium-italic";
+  src: url("./fonts/Figtree-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "figtree-base-regular";
+  src: url("./fonts/Figtree-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "figtree-base-semi-bold";
+  src: url("./fonts/Figtree-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "figtree-base-semi-bold-italic";
+  src: url("./fonts/Figtree-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "galyon-bold";
+  src: url("./fonts/Galyon-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+.font-figtree-black {
+  font-family: "figtree-base-black";
+}
+.font-figtree-black-italic {
+  font-family: "figtree-base-black-italic";
+}
+.font-figtree-bold {
+  font-family: "figtree-base-bold";
+}
+.font-figtree-bold-italic {
+  font-family: "figtree-base-bold-italic";
+}
+.font-figtree-extra-bold {
+  font-family: "figtree-base-extra-bold";
+}
+.font-figtree-extra-bold-italic {
+  font-family: "figtree-base-extra-bold-italic";
+}
+.font-figtree-italic {
+  font-family: "figtree-base-italic";
+}
+.font-figtree-light {
+  font-family: "figtree-base-light";
+}
+.font-figtree-light-italic {
+  font-family: "figtree-base-light-italic";
+}
+.font-figtree-medium {
+  font-family: "figtree-base-medium";
+}
+.font-figtree-medium-italic {
+  font-family: "figtree-base-medium-italic";
+}
+.font-figtree-regular {
+  font-family: "figtree-base-regular";
+}
+.font-figtree-semi-bold {
+  font-family: "figtree-base-semi-bold";
+}
+.font-figtree-semi-bold-italic {
+  font-family: "figtree-base-semi-bold-italic";
+}
+.font-galyon-bold {
+  font-family: "galyon-bold";
+}
+</style>
+<head>
+    <meta
+        http-equiv="Content-Type"
+        content="text/html; charset=UTF-8"
+    >
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <meta name="x-apple-disable-message-reformatting">
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="IE=edge"
+    >
+    <title></title>
+    <tbody>
+        <tr>
+            <td
+                style="padding:0;Margin:0"
+                valign="top"
+            >
+
+                    <tbody>
+                        <tr>
+                            <td
+                                style="padding:0;Margin:0"
+                                align="center"
+                            >
+                                <table
+                                    class="es-header-body"
+                                    role="none"
+                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#ffffff;width:600px"
+                                    bgcolor="#ffffff"
+                                    align="center"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                >
+                                    <tbody>
+                                        <tr>
+                                            <td
+                                                class="es-m-p20r es-m-p20l"
+                                                style="Margin:0;padding-top:20px;padding-bottom:20px;padding-left:40px;padding-right:40px"
+                                                align="left"
+                                            >
+                                                <table
+                                                    class="es-left"
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    align="left"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                class="es-m-p0r es-m-p20b"
+                                                                style="padding:0;Margin:0;width:156px"
+                                                                valign="top"
+                                                                align="center"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;font-size:0px"
+                                                                                align="center"
+                                                                            ><a
+                                                                                    href="https://www.beltoneholding.com"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#EA9999;font-size:14px"
+                                                                                    target="_blank"
+                                                                                ><img
+                                                                                        src="images/logo.png"
+                                                                                        title="Logo"
+                                                                                        alt="Logo"
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                                        width="200"
+                                                                                    ></a></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    align="right"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                style="padding:0;Margin:0;width:344px"
+                                                                align="left"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td style="padding:0;Margin:0">
+                                                                                <table
+                                                                                    class="es-menu"
+                                                                                    role="presentation"
+                                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                                    cellpadding="0"
+                                                                                    cellspacing="0"
+                                                                                    width="100%"
+                                                                                >
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table
+                    class="es-content"
+                    role="none"
+                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    align="center"
+                >
+                    <tbody>
+                        <tr>
+                            <td
+                                style="padding:0;Margin:0"
+                                align="center"
+                            >
+                                <table
+                                    class="es-content-body"
+                                    role="none"
+                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#ffffff;width:600px"
+                                    bgcolor="#ffffff"
+                                    align="center"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                >
+                                    <tbody>
+                                        <tr>
+                                            <td
+                                                class="es-m-p20r es-m-p20l"
+                                                style="Margin:0;padding-bottom:20px;padding-top:40px;padding-left:40px;padding-right:40px"
+                                                align="left"
+                                            >
+                                                <table
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    width="100%"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                style="padding:0;Margin:0;width:520px"
+                                                                align="center"
+                                                                valign="top"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                class="es-m-txt-l"
+                                                                                style="padding:0;Margin:0;padding-top:5px;padding-bottom:5px"
+                                                                                align="left"
+                                                                            >
+                                                                                <h1
+                                                                                    style="Margin:0;line-height:55.2px;mso-line-height-rule:exactly;font-size:46px;font-style:normal;font-weight:bold;color:#343a40;margin-top:-50px;font-family:'galyon-bold'"
+                                                                                    class="font-galyon-bold">
+                                                                                    Beltone Mortgage Connects with Clients at the Fun-Filled Food Market.</h1>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px"
+                                                                                align="left"
+                                                                            >
+                                                                                <p
+                                                                                    class="font-figtree-regular"
+                                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;line-height:27px;color:#343a40;font-size:18px"> Beltone Mortgage took part in the Food Market
+                                                                                    event that was held on December 21, 2024! The
+                                                                                    event was filled with festive cheer, fireworks, and a
+                                                                                    fantastic turnout of clients.
+                                                                                    The activities offered by Beltone Mortgage
+                                                                                    included a fun picture booth, hot chocolate, ginger
+                                                                                    cookies, and the spinning wheel with thrilling
+                                                                                    prizes.
+                                                                                   </p>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                class="es-m-p20r es-m-p20l"
+                                                style="padding:0;Margin:0;padding-bottom:40px;padding-left:40px;padding-right:40px;background:linear-gradient(180deg, #ffffff 50%, #343a40 50%)"
+                                                align="left"
+                                            >
+                                                <table
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    width="100%"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                style="padding:0;Margin:0;width:520px"
+                                                                align="center"
+                                                                valign="top"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;font-size:0px"
+                                                                                align="center"
+                                                                            ><a
+                                                                                    href="https://viewstripo.email"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#EA9999;font-size:18px"
+                                                                                    target="_blank"
+                                                                                ><table
+                                                                                    role="presentation"
+                                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                                    cellpadding="0"
+                                                                                    cellspacing="0"
+                                                                                    width="100%"
+                                                                                >
+                                                                                    <tr>
+                                                                                        <td style="padding:0;Margin:0;width:255px;padding-right:5px">
+                                                                                            <img
+                                                                                                class="adapt-img"
+                                                                                                src="images/8.png"
+                                                                                                title="Beltone Event Photo 1"
+                                                                                                alt="Beltone Event Photo 1" 
+                                                                                                style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                                                width="255"
+                                                                                            >
+                                                                                        </td>
+                                                                                        <td style="padding:0;Margin:0;width:255px;padding-left:5px">
+                                                                                            <img
+                                                                                                class="adapt-img"
+                                                                                                src="images/9.png"
+                                                                                                title="Beltone Event Photo 2"
+                                                                                                alt="Beltone Event Photo 2"
+                                                                                                style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                                                width="255"
+                                                                                            >
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table></a></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                class="es-m-p20r es-m-p20l"
+                                                style="padding:0;Margin:0;padding-bottom:20px;padding-left:40px;padding-right:40px;background-color:#343a40"
+                                                align="left"
+                                                bgcolor="#343a40"
+                                            >
+                                                <table
+                                                    class="es-left"
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    align="left"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                class="es-m-p20b"
+                                                                style="padding:0;Margin:0;width:250px"
+                                                                align="center"
+                                                                valign="top"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                class="es-m-txt-l"
+                                                                                style="padding:0;Margin:0;padding-bottom:5px;padding-top:30px"
+                                                                                align="left"
+                                                                            >
+
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px;font-size:0"
+                                                                                align="left"
+                                                                            >
+                                                                                <table
+                                                                                    role="presentation"
+                                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;width:50% !important;display:inline-table"
+                                                                                    border="0"
+                                                                                    width="50%"
+                                                                                    height="100%"
+                                                                                    cellpadding="0"
+                                                                                    cellspacing="0"
+                                                                                >
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td
+                                                                                                style="padding:0;Margin:0;border-bottom:1px solid #999999;background:none;height:1px;width:100%;margin:0px">
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-top:10px;padding-bottom:20px"
+                                                                                align="left"
+                                                                            >
+                                                                                <p
+                                                                                    class="font-figtree-regular"
+                                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;line-height:27px;color:#fff200;font-size:18px">
+                                                                                    The energy and enthusiasm from everyone who
+                                                                                    visited the booth made the event truly remarkable. 
+                                                                                   Beltone Mortgage is grateful for the opportunity to
+                                                                                    connect with so many wonderful people.
+                                                                                   </p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0"
+                                                                                align="left"
+                                                                            ><span
+                                                                                    class="es-button-border"
+                                                                                    style="border-style:solid;border-color:#2CB543;background:#ffc107;border-width:0px;display:inline-block;border-radius:0px;width:auto"
+                                                                                ><a
+                                                                                        class="es-button font-figtree-regular"
+                                                                                        href="https://www.instagram.com/beltonemortgage/"
+                                                                                        style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#0D3253;font-size:18px;padding:15px 35px 15px 35px;display:inline-block;background:#ffc107;border-radius:0px;font-weight:normal;font-style:normal;line-height:21.6px;width:auto;text-align:center"
+                                                                                        target="_blank"
+                                                                                    >Connect</a></span></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table
+                                                    class="es-right"
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    align="right"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                style="padding:0;Margin:0;width:250px"
+                                                                align="left"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;font-size:0px"
+                                                                                align="center"
+                                                                            ><a
+                                                                                    href="https://viewstripo.email"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#EA9999;font-size:18px"
+                                                                                    target="_blank"
+                                                                                ><img
+                                                                                        class="adapt-img"
+                                                                                        src="images/6.png"
+                                                                                        alt=""
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                                        width="250"
+                                                                                    ></a></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table
+                    class="es-content"
+                    role="none"
+                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    align="center"
+                >
+                    <tbody>
+                        <tr>
+                            <td
+                                style="padding:0;Margin:0"
+                                align="center"
+                            >
+                                <table
+                                    class="es-content-body"
+                                    role="none"
+                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#343a40;width:600px"
+                                    bgcolor="#343a40"
+                                    align="center"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                >
+                                    <tbody>
+                                        <tr>
+                                            <td
+                                                class="es-m-p20r es-m-p20l"
+                                                style="Margin:0;padding-bottom:10px;padding-top:20px;padding-left:40px;padding-right:40px"
+                                                align="left"
+                                            >
+                                                <table
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    width="100%"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                style="padding:0;Margin:0;width:520px"
+                                                                align="center"
+                                                                valign="top"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0"
+                                                                                align="center"
+                                                                            >
+                                                                                <h1
+                                                                                    class="font-galyon-bold"
+                                                                                    style="Margin:0;line-height:55.2px;mso-line-height-rule:exactly;font-size:46px;color:#ffffff">
+                                                                                    Awards</h1>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px;font-size:0"
+                                                                                align="center"
+                                                                            >
+                                                                                <table
+                                                                                    role="presentation"
+                                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;width:20% !important;display:inline-table"
+                                                                                    border="0"
+                                                                                    width="20%"
+                                                                                    height="100%"
+                                                                                    cellpadding="0"
+                                                                                    cellspacing="0"
+                                                                                >
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td
+                                                                                                style="padding:0;Margin:0;border-bottom:1px solid #999999;background:none;height:1px;width:100%;margin:0px">
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                class="es-m-p20r es-m-p20l"
+                                                style="Margin:0;padding-top:20px;padding-bottom:40px;padding-left:40px;padding-right:40px"
+                                                align="left"
+                                            >
+                                                <table
+                                                    class="es-left"
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    align="left"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                class="es-m-p0r es-m-p20b"
+                                                                style="padding:0;Margin:0;width:154px"
+                                                                align="center"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;font-size:0px"
+                                                                                align="center"
+                                                                            ><a
+                                                                                    href="https://viewstripo.email"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#EA9999;font-size:18px"
+                                                                                    target="_blank"
+                                                                                ></a></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-bottom:5px;padding-top:10px"
+                                                                                align="center"
+                                                                            >
+                                                                                <h3
+                                                                                    class="font-figtree-regular"
+                                                                                    style="Margin:0;line-height:31.2px;mso-line-height-rule:exactly;font-size:26px;font-style:normal;font-weight:normal;color:#ffffff">
+                                                                                    Best Asset Manger</h3>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-top:5px;padding-bottom:5px"
+                                                                                align="center"
+                                                                            >
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                            <td
+                                                                class="es-hidden"
+                                                                style="padding:0;Margin:0;width:30px"
+                                                            ></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table
+                                                    class="es-left"
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    align="left"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                class="es-m-p20b"
+                                                                style="padding:0;Margin:0;width:154px"
+                                                                align="center"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;font-size:0px"
+                                                                                align="center"
+                                                                            ><a
+                                                                                    href="https://viewstripo.email"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#EA9999;font-size:18px"
+                                                                                    target="_blank"
+                                                                                ></a></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-bottom:5px;padding-top:10px"
+                                                                                align="center"
+                                                                            >
+                                                                                <h3
+                                                                                    class="font-figtree-regular"
+                                                                                    style="Margin:0;line-height:31.2px;mso-line-height-rule:exactly;font-size:26px;font-style:normal;font-weight:normal;color:#ffffff">
+                                                                                    Best Equity Fund</h3>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-top:5px;padding-bottom:5px"
+                                                                                align="center"
+                                                                            >
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table
+                                                    class="es-right"
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    align="right"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                style="padding:0;Margin:0;width:152px"
+                                                                align="center"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;font-size:0px"
+                                                                                align="center"
+                                                                            ><a
+                                                                                    href="https://viewstripo.email"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#EA9999;font-size:18px"
+                                                                                    target="_blank"
+                                                                                ></a></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-bottom:5px;padding-top:10px"
+                                                                                align="center"
+                                                                            >
+                                                                                <h3
+                                                                                    class="font-figtree-regular"
+                                                                                    style="Margin:0;line-height:31.2px;mso-line-height-rule:exactly;font-size:26px;font-style:normal;font-weight:normal;color:#ffffff">
+                                                                                    Fastest Growing Asset</h3>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-top:5px;padding-bottom:5px"
+                                                                                align="center"
+                                                                            >
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table
+                    class="es-content"
+                    role="none"
+                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    align="center"
+                >
+                    <tbody>
+                        <tr>
+                            <td
+                                style="padding:0;Margin:0"
+                                align="center"
+                            >
+                                <table
+                                    class="es-content-body"
+                                    role="none"
+                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#dee2e6;width:600px"
+                                    bgcolor="#ffffff"
+                                    align="center"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                >
+                                    <tbody>
+                                        <tr>
+                                            <td
+                                                style="Margin:0;padding-top:30px;padding-bottom:30px;padding-left:40px;padding-right:40px"
+                                                align="left"
+                                            >
+                                                <table
+                                                    class="es-left"
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    align="left"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                class="es-m-p20b"
+                                                                style="padding:0;Margin:0;width:250px"
+                                                                align="left"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;font-size:0px"
+                                                                                align="center"
+                                                                            ><a
+                                                                                    href="https://viewstripo.email"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#EA9999;font-size:18px"
+                                                                                    target="_blank"
+                                                                                ><img
+                                                                                        class="adapt-img b_image"
+                                                                                        src="images/11.png"
+                                                                                        alt=""
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                                        width="250"
+                                                                                    ></a></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table
+                                                    class="es-right"
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    align="right"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                style="padding:0;Margin:0;width:250px"
+                                                                align="left"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                class="es-m-txt-l"
+                                                                                style="padding:0;Margin:0"
+                                                                                align="left"
+                                                                            >
+                                                                                <h1
+                                                                                    class="b_title font-galyon-bold"
+                                                                                    style="Margin:0;line-height:30px;mso-line-height-rule:exactly;font-size:20px;font-style:normal;font-weight:bold;color:#666666"
+                                                                                >Magnet Receives International Recognition</h1>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-top:15px;padding-bottom:20px"
+                                                                                align="left"
+                                                                            >
+                                                                                <p
+                                                                                    class="b_description font-figtree-regular"
+                                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;line-height:27px;color:#999999;font-size:18px"
+                                                                                >Magnet has been awarded "Best New Business
+                                                                                Consultancy for Start-up Support & Development
+                                                                                in Egypt 2024" at The Global Economics Awards
+                                                                                2024..</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0"
+                                                                                align="left"
+                                                                            ><span
+                                                                                    class="es-button-border figtree"
+                                                                                    style="border-style:solid;border-color:#2CB543;background:#ffc107;border-width:0px;display:inline-block;border-radius:0px;width:auto"
+                                                                                ><a
+                                                                                        class="es-button font-figtree-regular"
+                                                                                        href="https://www.instagram.com/p/DDcasHROaKR/"
+                                                                                        style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#0D3253;font-size:18px;padding:15px 35px 15px 35px;display:inline-block;background:#ffc107;border-radius:0px;font-weight:normal;font-style:normal;line-height:21.6px;width:auto;text-align:center"
+                                                                                        target="_blank"
+                                                                                    >Connect</a></span></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                class="es-m-p20r es-m-p20l"
+                                                style="padding:0;Margin:0;padding-left:40px;padding-right:40px"
+                                                align="left"
+                                            >
+                                                <table
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    width="100%"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                style="padding:0;Margin:0;width:520px"
+                                                                align="center"
+                                                                valign="top"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px;font-size:0"
+                                                                                align="center"
+                                                                            >
+                                                                                <table
+                                                                                    role="presentation"
+                                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;display:inline-table;width:40% !important"
+                                                                                    border="0"
+                                                                                    width="40%"
+                                                                                    height="100%"
+                                                                                    cellpadding="0"
+                                                                                    cellspacing="0"
+                                                                                >
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td
+                                                                                                style="padding:0;Margin:0;border-bottom:1px solid #999999;background:none;height:1px;width:100%;margin:0px">
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                style="Margin:0;padding-top:30px;padding-bottom:30px;padding-left:40px;padding-right:40px"
+                                                align="left"
+                                            >
+                                                <table
+                                                    class="es-right"
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    align="right"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                class="es-m-p20b"
+                                                                style="padding:0;Margin:0;width:250px"
+                                                                align="left"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;font-size:0px"
+                                                                                align="center"
+                                                                            ><a
+                                                                                    href="https://viewstripo.email"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#EA9999;font-size:18px"
+                                                                                    target="_blank"
+                                                                                ><img
+                                                                                        class="adapt-img b_image"
+                                                                                        src="images/cop.png"
+                                                                                        alt=""
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                                        width="250"
+                                                                                    ></a></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table
+                                                    class="es-left"
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    align="left"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                style="padding:0;Margin:0;width:250px"
+                                                                align="left"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                class="es-m-txt-l"
+                                                                                style="padding:0;Margin:0"
+                                                                                align="left"
+                                                                            >
+                                                                                <h1
+                                                                                    class="b_title font-galyon-bold"
+                                                                                    style="Margin:0;line-height:55.2px;mso-line-height-rule:exactly;font-size:25px;font-style:normal;font-weight:bold;color:#666666"
+                                                                                >COP29</h1>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-top:15px;padding-bottom:20px"
+                                                                                align="left"
+                                                                            >
+                                                                                <p
+                                                                                    class="b_description font-figtree-regular"
+                                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;line-height:27px;color:#999999;font-size:18px"
+                                                                                >Beltone Holding's Prominent Participation at COP29</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0"
+                                                                                align="left"
+                                                                            ><span
+                                                                                    class="es-button-border"
+                                                                                    style="border-style:solid;border-color:#2CB543;background:#ffc107;border-width:0px;display:inline-block;border-radius:0px;width:auto"
+                                                                                ><a
+                                                                                        class="es-button font-figtree-regular"
+                                                                                        href="https://drive.google.com/drive/folders/1rZo4YNr1-90JFjjsakBKuGdXeSmngW3F"
+                                                                                        style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#0D3253;font-size:18px;padding:15px 35px 15px 35px;display:inline-block;background:#ffc107;border-radius:0px;font-weight:normal;font-style:normal;line-height:21.6px;width:auto;text-align:center"
+                                                                                        target="_blank"
+                                                                                    >Connect</a></span></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table
+                    class="es-content"
+                    role="none"
+                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    align="center"
+                >
+                    <tbody>
+                        <tr>
+                            <td
+                                style="padding:0;Margin:0"
+                                align="center"
+                            >
+                                <table
+                                    class="es-content-body"
+                                    role="none"
+                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#343a40;width:600px"
+                                    bgcolor="#343a40"
+                                    align="center"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                >
+                                    <tbody>
+                                        <tr>
+                                            <td
+                                                style="Margin:0;padding-top:35px;padding-bottom:35px;padding-left:40px;padding-right:40px"
+                                                align="left"
+                                            >
+                                                <table
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    width="100%"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                style="padding:0;Margin:0;width:520px"
+                                                                align="center"
+                                                                valign="top"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-bottom:15px"
+                                                                                align="center"
+                                                                            >
+                                                                                <h2
+                                                                                    class="b_title font-galyon-bold"
+                                                                                    style="Margin:0;line-height:43.2px;mso-line-height-rule:exactly;font-size:36px;font-style:normal;font-weight:bold;color:#dee2e6"
+                                                                                >Magnet Talks</h2>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-top:5px;padding-bottom:15px"
+                                                                                align="center"
+                                                                            >
+                                                                                <p
+                                                                                    class="b_description font-figtree-regular"
+                                                                                    style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;line-height:27px;color:#999999;font-size:18px"
+                                                                                >Magnet has launched an exciting new series titled
+                                                                                Magnet Talks, consisting of seven insightful
+                                                                                episodes designed to help people shine in their
+                                                                                interview journeys.<br><br>
+                                                                                Magnet Talks aims to prepare job seekers with
+                                                                                valuable tips and guidance to confidently answer in
+                                                                                interviews, avoid common mistakes, and leave a
+                                                                                positive impression. <br><br>
+                                                                               Each episode dives into a commonly asked
+                                                                                interview question or topic, offering actionable
+                                                                                advice to help people stand out and secure their
+                                                                                dream jobs. This initiative is part of Magnet's
+                                                                                commitment to empowering and developing
+                                                                                individuals to thrive within the community. 
+                                                                                </p>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-bottom:20px;font-size:0px"
+                                                                                align="center"
+                                                                            ><a
+                                                                                    href="https://www.linkedin.com/posts/magnetempoweringorganizations_magnettalks-magnet-empoweringabrorganizations-activity-7269749825439481856-oi7s?utm_source=share&utm_medium=member_desktop"
+                                                                                    style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#EA9999;font-size:18px"
+                                                                                    target="_blank"
+                                                                                ><img
+                                                                                        class="b_image"
+                                                                                        src="images/magnet.png"
+                                                                                        alt=""
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                                        width="300"
+                                                                                    ></a></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0"
+                                                                                align="center"
+                                                                            ><span
+                                                                                    class="es-button-border"
+                                                                                    style="border-style:solid;border-color:#2CB543;background:#ffc107;border-width:0px;display:inline-block;border-radius:0px;width:auto"
+                                                                                ><a
+                                                                                        class="es-button font-figtree-regular"
+                                                                                        href="https://www.linkedin.com/posts/magnetempoweringorganizations_magnettalks-magnet-empoweringabrorganizations-activity-7269749825439481856-oi7s?utm_source=share&utm_medium=member_desktop"
+                                                                                        style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#0D3253;font-size:18px;padding:15px 35px 15px 35px;display:inline-block;background:#ffc107;border-radius:0px;font-weight:normal;font-style:normal;line-height:21.6px;width:auto;text-align:center"
+                                                                                        target="_blank"
+                                                                                    >Connect</a></span></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table
+                    class="es-content"
+                    role="none"
+                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    align="center"
+                >
+                    <tbody>
+                        <tr>
+                            <td
+                                style="padding:0;Margin:0"
+                                align="center"
+                            >
+                                <table
+                                    class="es-content-body"
+                                    role="none"
+                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#dee2e6;width:600px"
+                                    bgcolor="#ffffff"
+                                    align="center"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                >
+                                    <tbody>
+                                        <tr>
+                                            <td
+                                                class="es-m-p20r es-m-p20l"
+                                                style="padding:0;Margin:0;padding-top:20px;padding-left:40px;padding-right:40px"
+                                                align="left"
+                                            >
+                                                <table
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    width="100%"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                style="padding:0;Margin:0;width:520px"
+                                                                align="center"
+                                                                valign="top"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0"
+                                                                                align="center"
+                                                                            >
+                                                                                <h1
+                                                                                    class="font-galyon-bold"
+                                                                                    style="Margin:0;line-height:78px;mso-line-height-rule:exactly;font-size:65px;font-style:normal;font-weight:bold;color:#0D3253"
+                                                                                >2300+</h1>
+                                                                                <h3
+                                                                                    class="font-figtree-regular"
+                                                                                    style="Margin:0;line-height:31.2px;mso-line-height-rule:exactly;font-size:26px;font-style:normal;font-weight:normal;color:#343a40;padding-top:10px"
+                                                                                >Employees</h3>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                style="padding:20px 40px;Margin:0"
+                                                align="center"
+                                            >
+                                                <hr style="border:none;border-bottom:1px solid #999999;width:50%;margin:0 auto;">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                class="es-m-p20r es-m-p20l"
+                                                style="padding:0;Margin:0;padding-top:20px;padding-left:40px;padding-right:40px"
+                                                align="left"
+                                            >
+                                                <table
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    width="100%"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                style="padding:0;Margin:0;width:520px"
+                                                                align="center"
+                                                                valign="top"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0"
+                                                                                align="center"
+                                                                            >
+                                                                                <h1
+                                                                                    class="font-galyon-bold"
+                                                                                    style="Margin:0;line-height:78px;mso-line-height-rule:exactly;font-size:65px;font-style:normal;font-weight:bold;color:#0D3253"
+                                                                                >16</h1>
+                                                                                <h3
+                                                                                    class="font-figtree-regular"
+                                                                                    style="Margin:0;line-height:31.2px;mso-line-height-rule:exactly;font-size:26px;font-style:normal;font-weight:normal;color:#343a40;padding-top:10px"
+                                                                                >Licenses</h3>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                style="padding:20px 40px;Margin:0"
+                                                align="center"
+                                            >
+                                                <hr style="border:none;border-bottom:1px solid #999999;width:50%;margin:0 auto;">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                class="es-m-p20r es-m-p20l"
+                                                style="padding:0;Margin:0;padding-top:20px;padding-left:40px;padding-right:40px;padding-bottom:40px"
+                                                align="left"
+                                            >
+                                                <table
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    width="100%"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                style="padding:0;Margin:0;width:520px"
+                                                                align="center"
+                                                                valign="top"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0"
+                                                                                align="center"
+                                                                            >
+                                                                                <h1
+                                                                                    class="font-galyon-bold"
+                                                                                    style="Margin:0;line-height:78px;mso-line-height-rule:exactly;font-size:65px;font-style:normal;font-weight:bold;color:#0D3253"
+                                                                                >20+ Years</h1>
+                                                                                <h3
+                                                                                    class="font-figtree-regular"
+                                                                                    style="Margin:0;line-height:31.2px;mso-line-height-rule:exactly;font-size:26px;font-style:normal;font-weight:normal;color:#343a40;padding-top:10px"
+                                                                                >Track Record</h3>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table
+                    class="es-footer"
+                    role="none"
+                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%;background-color:transparent;background-repeat:repeat;background-position:center top"
+                    cellpadding="0"
+                    cellspacing="0"
+                    align="center"
+                >
+                    <tbody>
+                        <tr>
+                            <td
+                                style="padding:0;Margin:0"
+                                align="center"
+                            >
+                                <table
+                                    class="es-footer-body"
+                                    role="none"
+                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#414042;width:600px"
+                                    bgcolor="#ffffff"
+                                    align="center"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                >
+                                    <tbody>
+                                        <tr>
+                                            <td
+                                                class="es-m-p20r es-m-p20l"
+                                                style="padding:40px;Margin:0"
+                                                align="left"
+                                            >
+                                                <table
+                                                    role="none"
+                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    width="100%"
+                                                >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td
+                                                                style="padding:0;Margin:0;width:520px"
+                                                                align="left"
+                                                            >
+                                                                <table
+                                                                    role="presentation"
+                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                    cellpadding="0"
+                                                                    cellspacing="0"
+                                                                    width="100%"
+                                                                >
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-top:5px;padding-bottom:5px"
+                                                                                align="center"
+                                                                            >
+                                                                                <a href="https://www.beltoneholding.com/">
+                                                                                    <img
+                                                                                        src="images/logo-white.png"
+                                                                                        alt="Logo"
+                                                                                        style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:200px"
+                                                                                    />
+                                                                                </a>
+                                                                                <tr>
+                                                                                    <td align="center" style="padding:20px 0;font-family:arial,helvetica,sans-serif;font-size:14px;color:#333333;">
+                                                                                        <a href="https://www.beltoneholding.com/about" style="color:#ffffff;text-decoration:none;padding:0 10px;">About Us</a> |
+                                                                                        <a href="https://fa-epwu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/?lastSelectedFacet=POSTING_DATES&selectedPostingDatesFacet=30" style="color:#ffffff;text-decoration:none;padding:0 10px;">Careers</a> |
+                                                                                        <a href="https://www.beltoneholding.com/sustainability" style="color:#ffffff;text-decoration:none;padding:0 10px;">Terms & Conditions</a> |
+                                                                                        <a href="https://www.beltoneholding.com/sustainability" style="color:#ffffff;text-decoration:none;padding:0 10px;">Privacy Policy</a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px"
+                                                                                align="center"
+                                                                            >
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td
+                                                                                style="padding:0;Margin:0;padding-bottom:10px;font-size:0"
+                                                                                align="center"
+                                                                            >
+                                                                                <table
+                                                                                    class="es-table-not-adapt es-social"
+                                                                                    role="presentation"
+                                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px"
+                                                                                    cellpadding="0"
+                                                                                    cellspacing="0"
+                                                                                >
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td align="center">
+                                                                                                <div class="social-links" style="display: flex; gap: 25px; justify-content: center;">
+                                                                                                    <a href="https://www.facebook.com/Beltoneholding?mibextid=LQQJ4d" class="social-link" style="color: #fff200;">
+                                                                                                        <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" style="width: 32px; height: 32px;">
+                                                                                                            <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+                                                                                                        </svg>
+                                                                                                    </a>
+                                                                                                    <a href="https://www.instagram.com/beltone_holding/?igshid=Y2I2MzMwZWM3ZA%3D%3D" class="social-link" style="color: #fff200;">
+                                                                                                        <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" style="width: 32px; height: 32px;">
+                                                                                                            <path d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"/>
+                                                                                                        </svg>
+                                                                                                    </a>
+                                                                                                    <a href="https://www.linkedin.com/company/beltoneholding/" class="social-link" style="color: #fff200;">
+                                                                                                        <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" style="width: 32px; height: 32px;">
+                                                                                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                                                                                        </svg>
+                                                                                                    </a>
+                                                                                                    <a href="https://x.com/Beltoneholding" class="social-link" style="color: #fff200;">
+                                                                                                        <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" style="width: 32px; height: 32px;">
+                                                                                                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                                                                                                        </svg>
+                                                                                                    </a>
+                                                                                                </div>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                    
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table
+                    class="es-content"
+                    role="none"
+                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    align="center"
+                >
+                    <tbody>
+                        <tr>
+                            <td
+                                class="es-info-area"
+                                style="padding:0;Margin:0"
+                                align="center"
+                            >
+                                <table
+                                    class="es-content-body"
+                                    role="none"
+                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;width:600px"
+                                    align="center"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    bgcolor="#00000000"
+                                >
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table
+                    class="es-content"
+                    role="none"
+                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    align="center"
+                >
+                    <tbody>
+                        <tr>
+                            <td
+                                style="padding:0;Margin:0"
+                                align="center"
+                            >
+                                <table
+                                    class="es-content-body"
+                                    role="none"
+                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;width:600px"
+                                    align="center"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                >
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+    
+</table>
+</html>
